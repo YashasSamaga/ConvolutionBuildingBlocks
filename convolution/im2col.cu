@@ -4,8 +4,9 @@
 #include <cudnn.h>
 
 #include "cuda_common.hpp"
+#include "cudnn_common.hpp"
 
-#include "conv/ops/im2col/im2col.hpp"
+#include "nbb/ops/im2col/im2col.hpp"
 
 #include <cutlass/cutlass.h>
 #include <cutlass/numeric_types.h>

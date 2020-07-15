@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "cuda_common.hpp"
+#include "cudnn_common.hpp"
 
 #include "conv/ops/winograd/winograd.hpp"
 #include "conv/ops/im2col/im2col.hpp"

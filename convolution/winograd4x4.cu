@@ -4,11 +4,9 @@
 #include <cudnn.h>
 
 #include "cuda_common.hpp"
+#include "cudnn_common.hpp"
 
-#include "conv/ops/winograd/kernels/winograd4x4_BTdB.hpp"
-#include "conv/ops/winograd/kernels/winograd4x4_GgGT.hpp"
-#include "conv/ops/winograd/kernels/winograd4x4_ATtA.hpp"
-#include "conv/ops/winograd/winograd.hpp"
+#include "nbb/ops/winograd/winograd.hpp"
 
 #include <cublas_v2.h>
 
